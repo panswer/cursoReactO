@@ -1,10 +1,11 @@
 # AGENTS.md
 
 ## Stack
-- **Create React App** (react-scripts 3.4.1), **React 16.13.1**
+- **Create React App** (react-scripts 5.0.1), **React 18.2.0**
 - **Yarn** (not npm) — use `yarn`, never `npm`
 - **Plain JS** (no TypeScript)
-- **Class components** (React 16 — no hooks)
+- **Class components** (React 18 — no hooks)
+- **Entry** uses `createRoot` API (not `ReactDOM.render`)
 
 ## Commands
 | Command | Description |
